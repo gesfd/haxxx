@@ -1,0 +1,20 @@
+/.github
+.DS_Store
+demo/Host2Play_Renew.yml
+/demo
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 代理与运行产物（含节点地址/认证信息，绝不提交）
+sing-box_config.json
+socks5_proxy.txt
+proxy_result.json
+use_external_socks.txt
+sing-box
+*.log
+
+# 截图与输出
+output/
+screenshots/
