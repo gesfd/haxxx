@@ -1,0 +1,13 @@
+DrissionPage==4.1.1.4
+pyvirtualdisplay==3.0
+requests[socks]>=2.34.2,<3
+telethon==1.36.0
+python-socks[asyncio]==2.0.0
+SpeechRecognition==3.17.0
+audioop-lts==0.2.2
+pydub==0.25.1
+ddddocr==1.6.1
+onnxruntime<2
+nest_asyncio==1.6.0
+# 静态 ffmpeg 二进制（reCAPTCHA 音频解码用），避免 apt 拉 100+ 个 ffmpeg 依赖
+imageio-ffmpeg>=0.5,<1
