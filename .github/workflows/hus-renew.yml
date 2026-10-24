@@ -79,7 +79,7 @@ jobs:
       # 登录重试次数
       MAX_LOGIN_RETRIES: "1"
       # 私有仓库（含 hus-renew.py）
-      PRIVATE_REPO: jyucoeng/auto_hus_private
+      PRIVATE_REPO: gesfd/haxxx
       PROJECT_DIR: hus
       # 每份 workflow 各写各的时间文件，多账号并发也不会互相覆盖
       TIME_DIR: hus/1
